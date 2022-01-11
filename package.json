@@ -8,6 +8,7 @@
     "dev": "npx nodemon"
   },
   "engines": {
+    "yarn":"1.22.17",
     "node": "14.18.1"
   },
   "keywords": [],
