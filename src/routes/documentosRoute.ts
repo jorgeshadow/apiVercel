@@ -13,7 +13,7 @@ class DocumentosRoute{
     onConfig():void{ 
          this.router.get('/setv/:dateant/:datedes',documentosController.obtenerDocumentos);
          this.router.post('/setpg/',documentosController.setdatespg);
-         this.router.get('/datepg',documentosController.obtenerpg);
+         this.router.get('/datepg/:date',documentosController.obtenerpg);
          this.router.get('/movedb',documentosController.moverdocumentos);
     }
 }
